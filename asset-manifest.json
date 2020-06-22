@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/proreact/static/css/main.ab003eb6.chunk.css",
+    "main.js": "/proreact/static/js/main.df8e496b.chunk.js",
+    "main.js.map": "/proreact/static/js/main.df8e496b.chunk.js.map",
+    "runtime-main.js": "/proreact/static/js/runtime-main.b8b13245.js",
+    "runtime-main.js.map": "/proreact/static/js/runtime-main.b8b13245.js.map",
+    "static/js/2.37c1c238.chunk.js": "/proreact/static/js/2.37c1c238.chunk.js",
+    "static/js/2.37c1c238.chunk.js.map": "/proreact/static/js/2.37c1c238.chunk.js.map",
+    "index.html": "/proreact/index.html",
+    "precache-manifest.5bf438d97d1d56d634954ec3aa7c0926.js": "/proreact/precache-manifest.5bf438d97d1d56d634954ec3aa7c0926.js",
+    "service-worker.js": "/proreact/service-worker.js",
+    "static/css/main.ab003eb6.chunk.css.map": "/proreact/static/css/main.ab003eb6.chunk.css.map",
+    "static/js/2.37c1c238.chunk.js.LICENSE.txt": "/proreact/static/js/2.37c1c238.chunk.js.LICENSE.txt",
+    "static/media/profile_pic.svg": "/proreact/static/media/profile_pic.6f88fc6b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8b13245.js",
+    "static/js/2.37c1c238.chunk.js",
+    "static/css/main.ab003eb6.chunk.css",
+    "static/js/main.df8e496b.chunk.js"
+  ]
+}
