@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import data from './data/data.json'
 import {BrowserRouter,Route,Link} from 'react-router-dom';
-import reac_resume from './Reac_resume';
+import Reac_resume from './Reac_resume';
 import logo from './profile_pic.svg';
 import './css/bootstrap.min.css';
 
@@ -10,8 +10,8 @@ import './css/bootstrap.min.css';
 function App() {
   return (
     <BrowserRouter >
-    <Route exact path="/" component={Home}></Route>
-    <Route exact path="/Reac-resume" component={reac_resume}></Route>
+    <Route exact path="/proreact" component={Home}></Route>
+    <Route exact path="/resume" component={Reac_resume}></Route>
     </BrowserRouter>
   );
 }
@@ -37,7 +37,7 @@ let Home=()=>
                 <p className="text-dark">{values.basics.email}</p></a>
                 <p className="">{values.basics.pin}</p>
 
-                <Link to={{ pathname:"/Reac-resume",data:{id:index}}} className="btn btn-dark text-white">View Profile</Link>
+                <Link to={{ pathname:"/resume",data:{id:index}}} className="btn btn-dark text-white">View Profile</Link>
               </div>
             </div>
          </div>
