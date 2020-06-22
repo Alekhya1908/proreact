@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import data from './data/data.json'
 import {BrowserRouter,Route,Link} from 'react-router-dom';
-import Reac_resume from './Reac_resume';
+import reac_resume from './Reac_resume';
 import logo from './profile_pic.svg';
 import './css/bootstrap.min.css';
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter >
     <Route exact path="/" component={Home}></Route>
-    <Route exact path="/Reac-resume" component={Reac_resume}></Route>
+    <Route exact path="/Reac-resume" component={reac_resume}></Route>
     </BrowserRouter>
   );
 }
