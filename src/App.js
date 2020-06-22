@@ -9,9 +9,9 @@ import './css/bootstrap.min.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
     <Route exact path="/" component={Home}></Route>
-    <Route exact path="/resume" component={Reac_resume}></Route>
+    <Route exact path="/Reac-resume" component={Reac_resume}></Route>
     </BrowserRouter>
   );
 }
@@ -37,7 +37,7 @@ let Home=()=>
                 <p className="text-dark">{values.basics.email}</p></a>
                 <p className="">{values.basics.pin}</p>
 
-                <Link to={{ pathname:"/resume",data:{id:index}}} className="btn btn-dark text-white">View Profile</Link>
+                <Link to={{ pathname:"/Reac-resume",data:{id:index}}} className="btn btn-dark text-white">View Profile</Link>
               </div>
             </div>
          </div>
